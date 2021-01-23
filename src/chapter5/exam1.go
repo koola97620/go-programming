@@ -5,8 +5,9 @@ import (
 	"math"
 )
 
-func hypot(x, y float64) float64 {
-	return math.Sqrt(x*x + y*y)
+func hypot(x, y float64) (r float64) {
+	r = math.Sqrt(x*x + y*y)
+	return r
 }
 
 func main() {

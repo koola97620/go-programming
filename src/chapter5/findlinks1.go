@@ -1,8 +1,8 @@
 package main
 
 import (
-	"../../main/html"
 	"fmt"
+	"golang.org/x/net/html"
 	"os"
 )
 
